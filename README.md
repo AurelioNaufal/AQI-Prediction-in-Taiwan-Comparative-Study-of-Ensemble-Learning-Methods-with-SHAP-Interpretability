@@ -79,16 +79,6 @@ python 05_shap_analysis.py
 
 Steps must run **in order** (each step depends on outputs from the previous one).
 
-### Expected Runtime
-
-| Step | Approx. time |
-|------|-------------|
-| Preprocessing | < 1 min |
-| EDA | 1–2 min |
-| Model training (with Optuna) | 40–55 min |
-| Evaluation | < 1 min |
-| SHAP analysis | 2–5 min |
-
 ## Notebook
 
 `MLDA_FinalProject_Code.ipynb` contains all five steps in a single notebook with explanations.  
