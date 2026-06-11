@@ -34,9 +34,7 @@ Evaluation uses a strict **temporal 70 / 15 / 15 train-val-test split** (no shuf
 │   ├── figures/                     # All generated plots (01–15)
 │   ├── models/                      # Saved model files (.pkl / .keras)
 │   └── results/                     # predictions.pkl, metrics_table.csv
-├── MLDA_FinalProject_Code.ipynb     # Self-contained notebook (all steps)
-├── Final Project MLDA.docx          # Written report
-└── Ensemble Methods Presentation.pptx
+└── MLDA_FinalProject_Code.ipynb     # Self-contained notebook (all steps)
 ```
 
 ## Setup
