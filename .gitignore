@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+
+# Pipeline outputs
+outputs/
+
+# CatBoost training artifacts
+catboost_info/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Full (non-2024) dataset — too large for GitHub
+air_quality.csv
+
+# Report / presentation build scripts (not needed to reproduce the ML pipeline)
+build_notebook.py
+build_slides.py
+generate_report.py
+
+# Generated documents
+*.docx
+*.pptx
+
+# Reference paper
+*.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
