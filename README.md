@@ -86,7 +86,7 @@ Open in JupyterLab or VS Code and run cells top to bottom (same prerequisites ap
 
 ## Key Results
 
-- Best model: **CatBoost** (R² ≈ 0.9996, RMSE ≈ 0.54)
+- Best model: **GBR** (R² ≈ 0.9996, RMSE ≈ 0.0696)
 - Near-perfect R² is expected — AQI is a deterministic piecewise-linear function of the same-hour inputs the model receives. ML adds value through missing sensor imputation, adapting to Taiwan EPA's actual breakpoints, and SHAP-based feature importance.
 - Top features (SHAP): `pm2.5`, `pm2.5_avg`, `o3_8hr`, `pol_PM25`
 
